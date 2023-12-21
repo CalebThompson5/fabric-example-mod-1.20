@@ -1,4 +1,4 @@
-package com.example;
+package com.ctog.bukakemod;
 
 import net.fabricmc.api.ClientModInitializer;
 

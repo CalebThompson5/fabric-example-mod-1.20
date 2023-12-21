@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "bukakemod",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Bukake mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Caleb and Orion"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,14 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+          "com.ctog.bukakemod.Bukakemod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+          "com.ctog.bukakemod.BukakeModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"bukakemod.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
